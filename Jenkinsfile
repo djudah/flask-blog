@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'mvn --version'
+                bat 'K:\Dev\tools\apache-maven-3.3.3\bin\mvn --version'
             }
         }
     }
